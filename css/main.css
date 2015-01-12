@@ -7,7 +7,6 @@
 html {
     box-sizing: border-box;
 
-     
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -18,4 +17,67 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+  font-family: 'Abril Fatface', cursive;
+}
+
+
+
+.title {
+    display: inline-block;
+    width: 13rem;
+    padding: .5rem;
+    background: url("../image/star.svg") repeat left center;
+    background-color: #E8E5DA;
+    background-repeat: no-repeat;
+    margin-top: -.75rem;
+    text-shadow: 2px 2px #939598;
+
+    
+}
+
+.masthead {
+    background: url("../image/line.png") repeat left center;
+    text-align: center;
+    height: 2.5rem;
+    margin: 1rem;
+}
+
+.img-flex {
+    display: block;
+    width: 100%;
+}
+
+
+
+.frame {
+    background: url("../image/frame.png")center;
+    background-repeat: no-repeat;
+
+}
+
+
+.img-flex2 {
+    display: block;
+    width: 100%;
+    background-color: #87714F;
+}
+
+h2 {
+    width: auto;
+    text-align: center;
+}
+
+.icon {
+    margin: 1rem;
+    width: 27%;
+}
+
+.intro-wrap {
+    text-align: center;
+    color: #fff;
+}
+
+
+.li {
+    text-align: left;
 }
