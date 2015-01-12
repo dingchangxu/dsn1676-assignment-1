@@ -20,8 +20,6 @@ html {
   font-family: 'Abril Fatface', cursive;
 }
 
-
-
 .title {
     display: inline-block;
     width: 13rem;
@@ -30,9 +28,7 @@ html {
     background-color: #E8E5DA;
     background-repeat: no-repeat;
     margin-top: -.75rem;
-    text-shadow: 2px 2px #939598;
-
-    
+    text-shadow: 2px 2px #939598;  
 }
 
 .masthead {
@@ -47,21 +43,10 @@ html {
     width: 100%;
 }
 
-
-
-/**.frame {
-    background: url("../image/frame.png")center;
-    background-repeat: no-repeat;
-
-}**/
-
 .frame {
     border-image:  url("../image/frame1.png") 22 22 22 22 stretch stretch;
     border-width: 22px 22px 22px 22px;
-    
-
 }
-
 
 .img-flex2 {
     display: block;
@@ -83,7 +68,6 @@ h2 {
     text-align: center;
     color: #fff;
 }
-
 
 .li {
     text-align: left;
