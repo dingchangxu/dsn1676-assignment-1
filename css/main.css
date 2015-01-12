@@ -49,9 +49,16 @@ html {
 
 
 
-.frame {
+/**.frame {
     background: url("../image/frame.png")center;
     background-repeat: no-repeat;
+
+}**/
+
+.frame {
+    border-image:  url("../image/frame1.png") 22 22 22 22 stretch stretch;
+    border-width: 22px 22px 22px 22px;
+    
 
 }
 
